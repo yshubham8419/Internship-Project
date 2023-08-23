@@ -1,0 +1,79 @@
+.copyButton{
+    transition: all 0.3s ease-out;
+}
+.overlay{
+    padding: 3vw;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.8);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+.overlay:target{
+    visibility: visible;
+    opacity: 1;
+}
+.containerInvisible{
+    margin: 70px auto;
+    padding: 20px;
+    padding-bottom: 3vw;
+    background-color: #e7e7e7;
+    border-radius: 15px;
+    width:60%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.overlay h1{
+    font-family: 'poppins';
+    font-size: 3vw;
+    font-weight: 700;
+}
+.total{
+    font-family: 'roboto';
+    font-weight: 700;
+    font-size: 1.7vw;
+}
+.title h2{
+    font-family: 'roboto';
+    font-weight: 700;
+    font-size: 1vw;
+}
+
+.Link {
+    background-color:  #D9D9D9;
+    border: none;
+    border-radius: 5px;
+    width: 25vw;
+    height: 2.5vw;
+    font-size: 2vw;
+    flex-grow: 1;
+}
+.copy-link{
+    display: flex;
+    align-items: center;
+}
+.material-icons{
+    flex-shrink: 0;
+    border: none;
+    cursor: pointer;
+}
+.description{
+    padding-bottom: 1vw;
+    font-family: 'roboto';
+    font-size: 1.5vw;
+    font-weight: 700;
+}
+#homeButton{
+    font-family: 'poppins';
+    font-size: 1.2vw;
+}
+#leaderboardButton{
+    padding-left: '3rem';
+    font-family: 'poppins';
+    font-size: 1.2vw;
+}
